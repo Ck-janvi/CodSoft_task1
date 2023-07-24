@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body{
+            height: 0;
+            width: 0;
+        }
+        html{
+            padding: 0;
+            margin: 0;
+        }
+        main{
+            height: 100vh;
+            width: 100vw;
+        }
+        header{
+            height: 10vh;
+            position: sticky;
+        }
+        .head_container{
+            display: flex;
+            width: 100vw; 
+            background-color: bisque;
+            
+        }
+        .head{
+            width: 50vw;
+            /* border: 1px solid red; */
+            padding-left: 5em;
+        }
+
+        .links{
+            width: 50vw;
+            /* border: 1px solid red; */
+            padding-left: 23em;
+            
+        }
+        .head_container .links ul li {
+            font-size: 20px;          
+            display: inline-block;
+            padding-left: 1em;
+            padding-top: 2em;
+            list-style-type: none;
+        }
+        .head_container .links ul li a{
+            color: black;
+            text-decoration-line: none;
+        }
+        .head_container .links ul li a:hover ,  .head_container .links ul li a:focus{
+            color: blue;
+        }
+
+        .head img{
+            height: 15vh;         
+            padding-left: 8em;
+            padding-top: 1em;
+        }
+
+        main .container .sub_container .div2 img{
+            height: 100px;
+           width: 10vw;
+        }
+       
+
+         h1{
+            
+            color: black;
+            padding-left: 2.5em;
+            padding-top:3em; 
+            font-size:40px;
+            /* height: 20vh; */
+            padding-bottom: 0;
+            border-bottom: 1;
+           
+            
+        }
+        .container{
+         
+         display: flex;
+         /* border: 2px solid red; */
+         }
+        .container {
+            padding-top: 0;
+            height: 70vh;
+        }   
+
+        .container  .div1{
+            padding: 0;
+            margin: 0;
+            height: 40vh;
+            width: 50vw;
+            font-size: 22px;
+            padding-left: 2em;
+            /* border: 2px solid red; */
+        }
+        .container .div2{
+            height: 40vh;
+            width: 30vw;
+      
+            padding-left: 4em;
+        }
+
+        .container  .div1 .par1{
+           
+            padding-left: 3em;
+        }
+        .container  .div1 .par2{
+            
+            padding-left: 3em;
+        }
+        .container  .div1 .par3{
+           
+            padding-left: 3em;
+        }
+        .container  .div2 img{
+            height: 400px;
+            width: 400px;
+            /*   */
+            padding-left: 11em;
+            border-radius: 50%;
+            transition: all 0.9s ease-in-out;
+        }
+
+        .container .div2 img:hover{
+            transform: rotate(-30deg);
+        }
+        .container .btn {
+            color: blue;
+            margin: left 2em ;
+            height: 10vh;
+            width: 100px;
+            padding: 1em;
+            padding-left: 3em;
+           
+        }
+        .container .btn button {
+            padding: 1em;
+            width: 200px;
+            color:blue ;
+            font-size: 20px;
+            border-radius: 15px;
+            border: 1px solid beige;
+            background-color:rgb(228, 150, 94);
+        }
+        .container .btn button a{
+            text-decoration-line: none;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+  <main>
+    <header>
+
+     <div class="head_container">
+        <div class="head">
+              <img src="../img_landing/vecteezy_vintage-grilled-barbecue-logo-retro-bbq-vector-fire-grill_6735689-removebg-preview.png" alt="">
+
+        </div>  
+        
+        <div class="links">
+            <ul>
+                <li><a href="Landing_page.html">Home</a></li>
+                <li><a href="about_us.html">Our story</a></li>
+                <li><a href="ourworks_page.html">Services</a></li>
+                
+            </ul>
+        </div>
+
+    </div>   
+    </header>
+
+    <h1>Our Story:</h1>
+
+    <div class="container">
+                 
+                    <div class="div1">
+                        
+                        <p class="par1">This resturant was founded in southeasten Australia state of Victoria by john christina .
+                            building an protected and has been restored with a  revamping to become our resturant Unique.  </p>
+                        <p class="par2">The chef : John himself</p>
+                        <p class="par3">We are Assure that our all dishes will be Done in very procedural manner and will take care of people's health . </p>
+
+                    <div class="btn">   
+                        <button type="button"><a href="#">Contact Us</a></button>
+                    </div>    
+                    </div>
+                    <div class="div2">
+                        <img src="../img_landing/cook_pic.jpg" alt="Cook Image">
+                    </div>
+                    
+    </div>
+      
+</main>
+
+
+</body>
+</html>
